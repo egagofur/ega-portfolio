@@ -22,6 +22,6 @@ export const navbars: Navbar[] = [
   },
   {
     name: "Blog",
-    link: "https://ega.hashnode.dev/",
+    link: "https://medium.com/@egagofurtriwahana",
   },
 ];
