@@ -77,7 +77,7 @@ export const projects: Project[] = [
     desc: "Build a Portolio Website with React js is a website that i build using react.js. I build this website to learn react.js. I use react.js, react router, and tailwindcss.",
     date: "Jul 26, 2022",
     link: {
-      demo: "https://egagofur.vercel.app/",
+      demo: "https://egagofur.netlify.app/",
       repo: "https://github.com/egagofur/portfolio-react",
     },
     tech: ["React", "Tailwind CSS"],
