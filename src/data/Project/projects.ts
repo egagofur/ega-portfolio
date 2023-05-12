@@ -2,6 +2,26 @@ import Project from "@/src/data/Project/project";
 
 export const projects: Project[] = [
   {
+    name: "Portfolio Opon",
+    desc: "Portfolio opon with astro is a website that i build using astro. I build this website to learn astro. I use astro, tailwindcss.",
+    date: "May 08, 2023",
+    link: {
+      demo: "https://cintarahmaliya.vercel.app/",
+        repo: "https://github.com/egagofur/opon-porto",
+    },
+    tech: ["Astro", "Tailwind CSS", "TypeScript"],
+  },
+  {
+    name: "Express js Layerd Architecture",
+    desc: "Express js Layerd Architecture is a backend application that i build using express.js. I build this application to learn express.js. I use express.js, prisma, and postgresql.",
+    date: "Apr 30, 2023",
+    link: {
+        demo: null,
+        repo: "https://github.com/egagofur/express-layered-architecture",
+    },
+    tech: ["Express.js", "Prisma", "PostgreSQL", "Node.js"],
+  },
+  {
     name: "@egagofur/nextjs-13",
     desc: "Next.js 13 is a website that i build using next.js. I build this website to learn next.js. I use next.js, tailwindcss, and swr.",
     date: "Apr 20, 2023",
@@ -83,6 +103,16 @@ export const projects: Project[] = [
     tech: ["React", "Tailwind CSS"],
   },
   {
+    name: "Kanesa code",
+    desc: "I built a school organization website called Kanesa Code. built with html, css, and js. This website provides education for students who are interested in the field of web development.",
+    date: "Jul 15, 2022",
+    link: {
+      demo: "https://kanesacode.netlify.app/",
+      repo: "https://github.com/egagofur/tugas-dicoding",
+    },
+    tech: ["HTML", "CSS", "JavaScript"],
+  },
+  {
     name: "Ecommerce Website",
     desc: "Ecommerce Website with Wordpress is a website that i build using wordpress. I build this website to learn wordpress. I use wordpress, woocommerce, and elementor.",
     date: "Mar 09, 2022",
@@ -127,13 +157,13 @@ export const featured2: Project[] = [
     tech: ["React", "Tailwind CSS", "Vite", "Node.js"],
   },
   {
-    name: "Kanesa code",
-    desc: "I built a school organization website called Kanesa Code. built with html, css, and js. This website provides education for students who are interested in the field of web development.",
-    date: "Jul 15, 2022",
+    name: "Kopico",
+    desc: "I built a school organization website called Kopico. built with Astro, React, Tailwind. This website provides education for students who are interested in the field of web development.",
+    date: "May 11, 2023",
     link: {
-      demo: "https://kanesacode.netlify.app/",
-      repo: "https://github.com/egagofur/tugas-dicoding",
+      demo: "https://kopico.codes",
+      repo: "https://github.com/egagofur/kopico",
     },
-    tech: ["HTML", "CSS", "JavaScript"],
+    tech: ["Astro", "Tailwind CSS", "React", "TypeScript"],
   },
 ];

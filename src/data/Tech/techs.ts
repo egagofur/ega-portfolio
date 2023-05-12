@@ -106,4 +106,8 @@ export const techs: Tech[] = [
     name: "Docker",
     icon: "docker.svg",
   },
+  {
+    name: "Astro",
+    icon: "astro.svg",
+  }
 ];
